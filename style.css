@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(244, 234, 255);
+  }
+  
+  header {
+    text-align: center;
+    padding: 0;
+    margin: none;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: rgb(88, 49, 196);
+  }
+  
+  img {
+    width: 350px;
+    margin: 50px 50px 50px 50px;
+  }
+  
+  main {
+    text-align: left;
+    color: white;
+    background-color: rgb(122, 74, 218);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  ol {
+    padding: 10px;
+    list-style: none;
+  }
+  
+ .itens {
+    list-style: circle;
+    list-style-position: inside;
+  }
+  
+  ul {
+    padding-top: 10px;
+    margin: 0; /* Remover qualquer margem */
+    list-style: none; /* Remover marcadores de lista */
+    border: none; /* Remover qualquer borda */
+  }
+  
+  ul li {
+    padding: 12px;
+    border-left: none; /* Remover qualquer borda à esquerda */
+    list-style: none; /* Garantir que não haja marcadores */
+  }
+  
+  .titulo {
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: solid #FFA500 5px; /* Borda amarela apenas para a classe */
+    font-weight: bold;
+  }
+  
+  a:hover,
+  a:active {
+    background-color: rgb(250, 201, 39);
+    border-radius: 4px;
+  }  
+  
